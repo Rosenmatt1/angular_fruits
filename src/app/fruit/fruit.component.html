@@ -3,5 +3,10 @@
 </p>
 
 <div *ngFor="let fruit of fruits.data">
-  {{fruit}}
+  <div class="fruit_box">
+  <div>{{fruit.name}}</div>
+  <div>{{fruits.source}}</div>
+  <div>{{fruits.soruce}}</div>
+  <img src="{{fruits.url}}" />
+  </div>
 </div>
